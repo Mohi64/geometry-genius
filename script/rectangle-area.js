@@ -11,7 +11,7 @@ function rectangleAreaInput(){
     const width= parseFloat( rectangleWidthText)
     console.log( width)
      
-    const area = length* width ;
+    const area = length * width ;
 
     console.log('Area of the rectangle is:', area) ; 
 
