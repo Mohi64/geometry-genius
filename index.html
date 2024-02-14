@@ -127,7 +127,9 @@
                 <span class="text-2xl">cm</span>
               </div>
               <div class="m-6">
-                <p class="text-2xl">Area: <span id="area-calculation">0</span> cm<sup>2</sup></p>
+                <p class="text-2xl">
+                  Area: <span id="area-calculation">0</span> cm<sup>2</sup>
+                </p>
               </div>
               <div class="card-actions">
                 <button
@@ -142,78 +144,119 @@
           <!-- Rhombus area calculation -->
           <div class="card card-compact bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="images/rhombus.png"
-                alt="Rhombus"
-              />
+              <img src="images/rhombus.png" alt="Rhombus" />
             </figure>
             <div class="card-body">
               <h2 class="card-title">Rhombus</h2>
-              <p class="text-xl text-center mt-5" >Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub>
-               </p>
-               <div class="m-5">
-                <input id="rhombus-d1" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d1">
+              <p class="text-xl text-center mt-5">
+                Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub>
+              </p>
+              <div class="m-5">
+                <input
+                  id="rhombus-d1"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="d1"
+                />
                 <span class="text-xl">cm</span>
-                <input id="rhombus-d2" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d2">
+                <input
+                  id="rhombus-d2"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="d2"
+                />
                 <span class="text-xl">cm</span>
-               </div>
-               <div class="mb-5">
-                <p class="text-2xl">Area: <span id="rhombus-area">0</span> cm<sup>2</sup> </p>
-               </div>
+              </div>
+              <div class="mb-5">
+                <p class="text-2xl">
+                  Area: <span id="rhombus-area">0</span> cm<sup>2</sup>
+                </p>
+              </div>
               <div class="card-actions">
-                <button onclick="rhombusAreaInput()" class="btn btn-primary w-full">Calculate</button>
+                <button
+                  onclick="rhombusAreaInput()"
+                  class="btn btn-primary w-full"
+                >
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
           <!-- Pentagon area calculation -->
           <div class="card card-compact bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="images/pentagon.png"
-                alt="Pentagon"
-              />
+              <img src="images/pentagon.png" alt="Pentagon" />
             </figure>
             <div class="card-body">
               <h2 class="card-title">Pentagon</h2>
-              <p class="text-xl text-center mt-5" >Area (A) = 0.5 x p x b
-               </p>
-               <div class="m-5">
-                <input id="rhombus-d1" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d1">
+              <p class="text-xl text-center mt-5">Area (A) = 0.5 x p x b</p>
+              <div class="m-5">
+                <input
+                  id="pentagon-p"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="p"
+                />
                 <span class="text-xl">cm</span>
-                <input id="rhombus-d2" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d2">
+                <input
+                  id="pentagon-b"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="b"
+                />
                 <span class="text-xl">cm</span>
-               </div>
-               <div class="mb-5">
-                <p class="text-2xl">Area: <span id="pentagon-area">0</span> cm<sup>2</sup> </p>
-               </div>
+              </div>
+              <div class="mb-5">
+                <p class="text-2xl">
+                  Area: <span id="pentagon-area">0</span> cm<sup>2</sup>
+                </p>
+              </div>
               <div class="card-actions">
-                <button onclick="pentagonAreaInput()" class="btn btn-primary w-full">Calculate</button>
+                <button
+                  onclick="pentagonAreaInput()"
+                  class="btn btn-primary w-full"
+                >
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
-          <!-- Rhombus area calculation -->
+          <!-- Ellipse area calculation -->
           <div class="card card-compact bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="images/rhombus.png"
-                alt="Rhombus"
-              />
+              <img src="images/ellipse.png" alt="Ellipse" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Rhombus</h2>
-              <p class="text-xl text-center mt-5" >Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub>
-               </p>
-               <div class="m-5">
-                <input id="rhombus-d1" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d1">
+              <h2 class="card-title">Ellipse</h2>
+              <p class="text-xl text-center mt-5">Area (A) = 3.14 x a x b</p>
+              <div class="m-5">
+                <input
+                  id="ellipse-a"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="a"
+                />
                 <span class="text-xl">cm</span>
-                <input id="rhombus-d2" class="border-2 gray-500 w-16 p-1" type="text" placeholder="d2">
+                <input
+                  id="ellipse-b"
+                  class="border-2 gray-500 w-16 p-1"
+                  type="text"
+                  placeholder="b"
+                />
                 <span class="text-xl">cm</span>
-               </div>
-               <div class="mb-5">
-                <p class="text-2xl">Area: <span id="rhombus-area">0</span> cm<sup>2</sup> </p>
-               </div>
+              </div>
+              <div class="mb-5">
+                <p class="text-2xl">
+                  Area: <span id="Ellipse-area">0</span> cm<sup>2</sup>
+                </p>
+              </div>
               <div class="card-actions">
-                <button onclick="rhombusAreaInput()" class="btn btn-primary w-full">Calculate</button>
+                <button
+                  onclick="ellipseAreaInput()"
+                  class="btn btn-primary w-full"
+                >
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
@@ -228,5 +271,7 @@
     <script src="script/rectangle-area.js"></script>
     <script src="script/Parallelogram.js"></script>
     <script src="script/rhombus.js"></script>
+    <script src="script/pentagon.js"></script>
+    <script src="script/ellipse.js"></script>
   </body>
 </html>
